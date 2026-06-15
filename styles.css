@@ -1,5 +1,4 @@
 *{
-    outline: 1px solid red;
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -181,4 +180,12 @@ a{
     background-color: #3882F6;
     border: 2px solid white;
     border-radius: 10px;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    padding: 27px 0px;
+    color: #E5E7EB;
+    background-color: #1F2937;
 }
