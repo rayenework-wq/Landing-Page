@@ -106,8 +106,8 @@ a{
 #C2-txt{
     text-align: center;
     font-size: 36px;
-    font-weight: 900;
     color: #1F2937;
+    font-weight: bold;
 }
 
 .Ability-1 img, .Ability-2 img, .Ability-3 img, .Ability-4 img, .Ability-5 img {
@@ -118,6 +118,10 @@ a{
     border-radius: 10px;
 }
 
+.Ability-item p{
+    font-weight: 900;
+}
+
 .Ability-item{
     display: flex;
     flex-direction: column;
@@ -126,4 +130,23 @@ a{
     gap:8px;
 }
 
-/*Section Three*/
+/*Third Section*/
+.third-section{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+.sec3-cont{
+    flex-direction: column;
+    padding: 0 207px;
+    gap:16px;
+}
+
+#quote{
+    font-size: 24px;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+/*fourth section*/
