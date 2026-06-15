@@ -92,3 +92,38 @@ a{
 }
 
 /*Second Section*/
+.second-section{
+    flex-direction: column;
+    gap: 20px;
+} 
+
+.abilities{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#C2-txt{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.Ability-1 img, .Ability-2 img, .Ability-3 img, .Ability-4 img, .Ability-5 img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.Ability-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+}
+
+/*Section Three*/
